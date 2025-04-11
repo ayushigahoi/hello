@@ -5,11 +5,27 @@ public static void main(String[] args) {
     String a =sc.next();
     System.out.println(a);
 
-//     String a=sc.nextLine();
-//     System.out.println(a);
+    String a=sc.nextLine();
+    System.out.println(a);
 
-// int number =sc.nextInt();
-// System.out.println(number);
+int number =sc.nextInt();
+System.out.println(number);
+
+double d=sc.nextDouble();
+System.out.println(d);
+
+float f =sc.nextFloat();
+System.out.println(f);
+
+long l=sc.nextLong();
+System.out.println(l);
+
+boolean b=sc.hasNextBoolean();
+System.out.println(b);
+
+
+
+
 
 
 
