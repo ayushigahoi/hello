@@ -55,15 +55,13 @@ public class datatype {
 // System.out.println(b);
 
 //sum of num
-// int num=1234;
-// int sum=0;
-// int n;
-// while(n>0){
-//   int temp= num%10;
-//   sum+=temp;
-//   num=num%10;
-// }
-// System.out.println(sum);
+int num=123;
+int sum=0;
+while(num>0){
+  sum=sum+num%10;
+  num=num/10;
+}
+System.out.println(sum);
 
 
 //Q6. swap two numbers using third variable
