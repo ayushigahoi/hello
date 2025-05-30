@@ -6,6 +6,7 @@ public class area_of_circle {
          int r =sc.nextInt();
          float area = 3.14f*r*r;
          System.out.println(area);
+       
 
 
     }
